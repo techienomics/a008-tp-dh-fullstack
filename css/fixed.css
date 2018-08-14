@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dedede;
+	height: 200vh;
+}
+
+.container {
+	width: 500px;
+	border: solid 5px red;
+	margin: auto;
+	position: relative; /* para que contenga los elementos con P.A. */
+}
+
+/* Agrupación de Selectores */
+.box01, .box02, .box03, .box04 {
+	width: 120px;
+	height: 120px;
+}
+
+.box01 {
+	background-color: #eca51b;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.box02 {
+	background-color: #3ae0c4;
+}
+
+.box03 {
+	background-color: #ec1b79;
+}
+
+.box04 {
+	background-color: #1b1b1a;
+	position: fixed;
+	left: 0;
+	top: 0;
+}

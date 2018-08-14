@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dedede;
+	height: 200vh;
+}
+
+.container {
+	width: 500px;
+	border: solid 5px red;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Agrupación de Selectores */
+.box01, .box02, .box03, .box04 {
+	width: 50%;
+	height: 120px;
+	float: left;
+}
+
+.box01 {
+	background-color: #eca51b;
+}
+
+.box02 {
+	background-color: #3ae0c4;
+	position: relative;
+}
+
+.box03 {
+	background-color: #ec1b79;
+}
+
+.box04 {
+	background-color: #1b1b1a;
+}
+
+.chat {
+	width: 200px;
+	height: 40px;
+	background-color: #d5e651;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.logo {
+	width: 150px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/* Selector Descendente */
+.box02 img {
+	width: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

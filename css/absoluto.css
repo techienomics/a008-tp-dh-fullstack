@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dedede;
+	height: 200vh;
+}
+
+.container {
+	width: 500px;
+	border: solid 5px red;
+	margin: auto;
+	/* position: relative; para que contenga los elementos con P.A. */
+}
+
+/* Agrupación de Selectores */
+.box01, .box02, .box03, .box04 {
+	width: 120px;
+	height: 120px;
+}
+
+.box01 {
+	background-color: #eca51b;
+}
+
+.box02 {
+	background-color: #3ae0c4;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.box03 {
+	background-color: #ec1b79;
+	position: absolute;
+	left: 40px;
+	top: 50px;
+}
+
+.box04 {
+	background-color: #1b1b1a;
+}

@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dedede;
+}
+
+.container {
+	width: 500px;
+	border: solid 5px red;
+	margin: auto;
+}
+
+/* Agrupación de Selectores */
+.box01, .box02, .box03, .box04 {
+	width: 120px;
+	height: 120px;
+}
+
+.box01 {
+	background-color: #eca51b;
+	position: relative;
+	left: 100px;
+	top: 50px;
+}
+
+.box02 {
+	background-color: #3ae0c4;
+	position: relative;
+	right: 30px;
+	bottom: 50px;
+}
+
+.box03 {
+	background-color: #ec1b79;
+}
+
+.box04 {
+	background-color: #1b1b1a;
+}
